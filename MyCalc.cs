@@ -12,5 +12,10 @@ namespace MyCalcLib
         {
             return x + y;
         }
+
+        public int Diff(int x, int y)
+        {
+            return x - y;
+        }
     }
 }
