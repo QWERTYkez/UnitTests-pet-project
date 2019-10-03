@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTests_pet_project
+namespace MyCalcLib
 {
-    public class Class1
+    public class MyCalc
     {
+        public int Sum(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
